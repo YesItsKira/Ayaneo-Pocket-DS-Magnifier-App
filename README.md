@@ -1,63 +1,65 @@
-# Pocket DS Magnifier
+# Ayaneo Pocket DS Magnifier
 
-Pocket DS Magnifier is a simple utility app made specifically for the **AYANEO Pocket DS** (dual-screen Android handheld).
+Ayaneo Pocket DS Magnifier is a small utility app made for the **AYANEO Pocket DS** (dual-screen Android handheld).
 
-It mirrors the **top screen onto the bottom screen**, so you can **zoom in and pan around** like a magnifying glass — perfect for things like **minimaps**, small UI text, inventory grids, or any on-screen details that are hard to see at a glance.
+It **mirrors the top screen onto the bottom screen** and turns the bottom screen into a **live magnifier**. This is especially useful in games when you want to zoom in on small UI elements (like a minimap) while still playing normally on the main screen.
 
 ## Inspiration
 
-This app was inspired by the **magnification trick on the AYANEO (AYA NEO) AYN/AYN Thor**, where you can use a second display as a live “magnified” view of the main screen. This brings the same idea to the **Pocket DS** in a dedicated, game-friendly way.
-
----
+This app is inspired by the **magnification trick on the AYN Thor**, where a second screen can be used as a live “zoomed view” of the main display. This project brings that same idea to the **AYANEO Pocket DS**.
 
 ## How to use
 
-1. Open **Pocket DS Magnifier**
+1. Open **Ayaneo pocket DS Magnifier**
 2. Tap **Start mirroring**
 3. When Android shows the screen capture prompt, tap **Start now**
-4. Look at the **bottom screen** — it will now show a live view of your **top screen**
+4. The **bottom screen** will show a live view of the **top screen**
 5. Use gestures on the **bottom screen**:
    - **Pinch** to zoom in/out
    - **Drag with one finger** to pan around
-   - **Double tap** to reset the view
-   - **3-finger tap** to open/close the tuning overlay (AA + sharpness)
+   - **Double tap** to reset zoom/pan
+   - **3-finger tap** to show/hide the tuning overlay (AA + sharpness sliders)
 
-### Anti-aliasing mode
-On the main page you can choose:
-- **FXAA**
-- **SMAA (experimental)**
-
-SMAA can look cleaner in some games, but it’s marked experimental because visuals can vary depending on the game’s UI style.
-
----
+> Note: Android always shows the “Start now” confirmation for screen capture. That’s normal.
 
 ## Features
 
-### Live dual-screen magnifier
-- Shows the **top screen** on the **bottom screen** in real time.
-- Designed to work naturally as a “magnifying lens” while you keep playing on the main screen.
+### Live top-to-bottom mirroring
+Uses Android’s screen capture (MediaProjection) to mirror the top display onto the bottom display in real time.
 
-### Smooth zoom + pan controls
-- Pinch zoom and panning are designed for quick minimap inspection without interrupting gameplay.
+### Zoom and pan magnifier controls
+The bottom screen acts like a magnifying glass:
+- pinch to zoom
+- drag to pan
+- reset with a double tap
 
-### Fit at 1×, Fill when zoomed
-- At **1× zoom**, it shows the full top screen view (no stretching).
-- When you **zoom in**, it automatically fills the bottom screen (no black bars while magnifying).
+### Fit at 1×, fill when zoomed
+To avoid stretching:
+- At **1× zoom** the image is **fit** to show the full view (may show small bars depending on aspect ratio)
+- When **zoomed in**, the view **fills** the bottom screen (no black bars while magnifying)
 
-### Image tuning overlay (3-finger tap)
-A 3-finger tap on the bottom screen shows sliders for:
-- **AA Strength** (affects the currently selected AA mode)
-- **Sharpness** (separately tuned per mode)
+### Anti-aliasing modes
+The app includes two AA options:
+- **FXAA** (default)
+- **SMAA (Experimental)** — can look cleaner in some games, but may vary depending on the UI/minimap style
 
-This lets you dial in the best look for your specific game/minimap:
-- More AA = smoother edges, less jaggedness
-- More sharpness = clearer detail, but too high can shimmer
+### 3-finger tuning overlay (AA + sharpness)
+A **3-finger tap** on the bottom screen opens an overlay with two sliders for the **currently active AA mode**:
+- **AA Strength** (how strong FXAA/SMAA is)
+- **Sharpness** (how crisp the image is)
+
+These sliders update live while mirroring, so you can tune it per-game.
+
+## Permissions
+
+- **Screen capture permission** (MediaProjection “Start now” prompt)
+- **Notifications permission** (Android 13+) so the app can show the required foreground-service notification while capturing
+
+## Tips for minimaps
+
+- If the minimap looks **too jagged**: increase **AA Strength**
+- If it looks **too soft**: increase **Sharpness**
+- If it **shimmers** while moving: reduce **Sharpness** a bit
 
 ---
-
-## Notes
-
-- This app uses Android’s screen capture system, so Android will always show the **“Start now”** confirmation prompt.
-- Visual results depend on the game and UI style — especially for minimaps that are constantly moving.
-
-Enjoy, and tweak the overlay settings until the minimap looks perfect for your game.
+This project is not affiliated with AYANEO or AYN.
