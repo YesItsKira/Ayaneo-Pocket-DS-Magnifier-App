@@ -4,13 +4,15 @@ Ayaneo Pocket DS Magnifier is a small utility app made for the **AYANEO Pocket D
 
 It **mirrors the top screen onto the bottom screen** and turns the bottom screen into a **live magnifier**. This is especially useful in games when you want to zoom in on small UI elements (like a minimap) while still playing normally on the main screen.
 
-![Mariokart 8 Magnified Minimap]([image-url](https://github.com/YesItsKira/Ayaneo-Pocket-DS-Magnifier-App/blob/main/P1020583.JPG))
+![Mariokart 8 Magnified Minimap](P1020583.JPG)
 
 ## Inspiration
 
 This app is inspired by the **magnification trick on the AYN Thor**, where a second screen can be used as a live “zoomed view” of the main display. This project brings that same idea to the **AYANEO Pocket DS**.
 
 ## How to use
+
+![App Main Screen](Screenshot_20251223-074053.png)
 
 1. Open **Ayaneo pocket DS Magnifier**
 2. Tap **Start mirroring**
@@ -24,6 +26,8 @@ This app is inspired by the **magnification trick on the AYN Thor**, where a sec
 
 > Note: Android always shows the “Start now” confirmation for screen capture. That’s normal.
 
+![App Main Screen](P1020588.JPG)
+
 ## Features
 
 ### Live top-to-bottom mirroring
@@ -32,7 +36,6 @@ Uses Android’s screen capture (MediaProjection) to mirror the top display onto
 ### Zoom and pan magnifier controls
 The bottom screen acts like a magnifying glass:
 - pinch to zoom!
-
 - drag to pan
 - reset with a double tap
 
