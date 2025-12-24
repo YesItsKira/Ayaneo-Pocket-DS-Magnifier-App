@@ -1,5 +1,6 @@
 # Ayaneo Pocket DS Magnifier
 
+[![Video Thumbnail](Untitled.png)](https://www.youtube.com/watch?v=LWi2W4bfvrc)
 
 Ayaneo Pocket DS Magnifier is a small utility app made for the **AYANEO Pocket DS** (dual-screen Android handheld).
 
