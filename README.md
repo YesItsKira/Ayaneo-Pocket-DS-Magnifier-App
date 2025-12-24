@@ -1,7 +1,5 @@
 # Ayaneo Pocket DS Magnifier
 
-[![Video Thumbnail](Untitled.png)](https://www.youtube.com/watch?v=LWi2W4bfvrc)
-
 Ayaneo Pocket DS Magnifier is a small utility app made for the **AYANEO Pocket DS** (dual-screen Android handheld).
 
 It **mirrors the top screen onto the bottom screen** and turns the bottom screen into a **live magnifier**. This is especially useful in games when you want to zoom in on small UI elements (like a minimap) while still playing normally on the main screen.
@@ -57,6 +55,8 @@ A **3-finger tap** on the bottom screen opens an overlay with two sliders for th
 - **Sharpness** (how crisp the image is)
 
 These sliders update live while mirroring, so you can tune it per-game.
+
+[![Video Thumbnail](Untitled.png)](https://www.youtube.com/watch?v=LWi2W4bfvrc)
 
 ## Permissions
 
