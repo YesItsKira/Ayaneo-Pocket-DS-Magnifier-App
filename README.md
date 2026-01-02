@@ -71,3 +71,8 @@ These sliders update live while mirroring, so you can tune it per-game.
 
 ---
 This project is not affiliated with AYANEO or AYN.
+
+
+I dont charge for any of my projects and make them free for the communities they are in. If you like my stuff, id appreciate a tip!
+
+https://ko-fi.com/yesitskira
