@@ -1,5 +1,6 @@
 # Ayaneo Pocket DS Magnifier
 
+# This build is out of date. You can access the most up to date versions and all my other tools through a single app! PDS Utilities: https://github.com/YesItsKira/PDS-Utilities
 Ayaneo Pocket DS Magnifier is a small utility app made for the **AYANEO Pocket DS** (dual-screen Android handheld).
 
 It **mirrors the top screen onto the bottom screen** and turns the bottom screen into a **live magnifier**. This is especially useful in games when you want to zoom in on small UI elements (like a minimap) while still playing normally on the main screen.
